@@ -14,13 +14,12 @@ class FibonacciMagic
 
             i = i - 1
         end
-
         return array
     end
 
     def self.do_magic(input)
         array = [] 
-        # check input is integer 
+
         if !input.is_a?(Integer) || input <= 0
             return array
         end
