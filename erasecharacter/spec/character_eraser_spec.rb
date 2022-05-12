@@ -1,10 +1,5 @@
 require "character_eraser"
 describe CharacterEraser do
-    # input ("father", "a") return "fther"
-    # input ("hello world", " ") return "helloworld"
-    # input ("hello world", "") return "hello world"
-    # input (5, 5) return "invalid input"
-
     it "removes a letter from the word" do
         character_eraser = CharacterEraser.new
         expect(character_eraser.erase("father", "a")).to eq("fther")
